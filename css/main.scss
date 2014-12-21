@@ -1,41 +1,45 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Front Matter comment for Jekyll
 ---
 @charset "utf-8";
 
+// Fonts
+@font-face {font-family: 'EuropaGroSHOP-XLig';src: url('{{ base.url }}/assets/fonts/2963C4_0_0.eot');src: url('{{ base.url }}/assets/fonts/2963C4_0_0.eot?#iefix') format('embedded-opentype'),url('{{ base.url }}/assets/fonts/2963C4_0_0.woff') format('woff'),url('{{ base.url }}/assets/fonts/2963C4_0_0.ttf') format('truetype'),url('{{ base.url }}/assets/fonts/2963C4_0_0.svg#wf') format('svg');}  
+@font-face {font-family: 'EuropaGroSHOP-Reg';src: url('{{ base.url }}/assets/fonts/2963C4_1_0.eot');src: url('{{ base.url }}/assets/fonts/2963C4_1_0.eot?#iefix') format('embedded-opentype'),url('{{ base.url }}/assets/fonts/2963C4_1_0.woff') format('woff'),url('{{ base.url }}/assets/fonts/2963C4_1_0.ttf') format('truetype'),url('{{ base.url }}/assets/fonts/2963C4_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'EuropaGroSHOP-Lig';src: url('{{ base.url }}/assets/fonts/2963C4_2_0.eot');src: url('{{ base.url }}/assets/fonts/2963C4_2_0.eot?#iefix') format('embedded-opentype'),url('{{ base.url }}/assets/fonts/2963C4_2_0.woff') format('woff'),url('{{ base.url }}/assets/fonts/2963C4_2_0.ttf') format('truetype'),url('{{ base.url }}/assets/fonts/2963C4_2_0.svg#wf') format('svg');}
+$europaXlight: 'EuropaGroSHOP-XLig', 'Helvetica Neue', Helvetica, sans-serif;
+$europaLight: 'EuropaGroSHOP-Lig', 'Helvetica Neue', Helvetica, sans-serif;
+$europaReg: 'EuropaGroSHOP-Reg', 'Helvetica Neue', Helvetica, sans-serif;
+
+// Variables
+$base-font-family: 			$europaReg;
+$base-font-family-light: 	$europaLight;
+$base-font-size:   			16px;
+$small-font-size:  			$base-font-size * 0.875;
+$large-font-size:  			$base-font-size * 1.25;
+$xlarge-font-soze: 			$base-font-size * 1.5;
+$base-line-height: 			1.5;
+
+$spacing-unit:     			30px;
+
+$white: 					#ffffff;
+$grayLight: 				#ecf0f1;
+$gray: 						#95a5a6;
+$grayDark: 					#2c2c2c;
+$blueLight: 				#3498db;
+$blue: 						#2e8dcc;
+$blueDark: 					#2c3e50;
+
+$content-width:				1000px;		
+
+// Breakpoint Widths
+$device-large:	   			1200px;			
+$device-medium:    			900px;
+$device-small:     			600px;
 
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
 
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+// Media Queries
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -47,6 +51,5 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
 ;

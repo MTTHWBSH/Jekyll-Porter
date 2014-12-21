@@ -8,3 +8,6 @@ github_username:  MTTHWBSH
 
 # Build settings
 markdown: kramdown
+sass:
+    style: :compressed
+    sass_dir: _sass

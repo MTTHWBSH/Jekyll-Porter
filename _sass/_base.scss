@@ -17,9 +17,8 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
+    color: $grayDark;
+    background-color: $grayLight;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -41,6 +40,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
+    display: block;
     max-width: 100%;
     vertical-align: middle;
 }
@@ -64,7 +64,8 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: 0;
+    list-style-type: none;
 }
 
 li {
@@ -80,7 +81,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    
 }
 
 
@@ -89,15 +90,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $blue;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($blue, 15%);
     }
 
     &:hover {
-        color: $text-color;
+        color: $blueLight;
         text-decoration: underline;
     }
 }
@@ -108,12 +109,11 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $grayDark;
+    border-left: 4px solid $grayLight;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: $large-font-size;
     letter-spacing: -1px;
-    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -128,9 +128,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grayDark;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $gray;
 }
 
 code {
@@ -162,7 +162,7 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include media-query($device-large) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
@@ -193,12 +193,12 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 32px;
+        height: 32px;
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $gray;
         }
     }
 }
