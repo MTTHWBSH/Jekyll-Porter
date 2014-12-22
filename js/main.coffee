@@ -9,6 +9,6 @@ $(document).ready ->
     return
   return
 $(window).load ->
-  $(".page-content").fadeIn()
+  $(".page-content").addClass "load"
   return
 

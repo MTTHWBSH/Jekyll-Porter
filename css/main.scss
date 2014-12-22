@@ -101,7 +101,14 @@ $device-small:     			600px;
 // Hide content until load
 
 .page-content {
-    display: none;
+    opacity: 0;
+    @include transition(all, 1s, ease-in);
+}
+
+// Show it
+
+.page-content.load {
+	opacity: 1;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
