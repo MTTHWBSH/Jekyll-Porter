@@ -102,7 +102,7 @@ $device-small:     			600px;
 
 .page-content {
     opacity: 0;
-    @include transition(all, 1s, ease-in);
+    @include transition(opacity, 1s, ease-in);
 }
 
 // Show it
