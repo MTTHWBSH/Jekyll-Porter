@@ -1,8 +1,9 @@
 /**
- * Site header
+ * hero
  */
-.site-header {
-    @include media-query($device-small) {
-
-    }
-}
+	@include media-query($device-medium) {
+		.hero .wrapper {
+			width: 100%;
+			margin: 0;
+		}
+	}
