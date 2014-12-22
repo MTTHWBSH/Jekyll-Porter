@@ -1,9 +1,15 @@
 /**
  * hero
  */
-	@include media-query($device-medium) {
+	@include media-query($device-small) {
 		.hero .wrapper {
 			width: 100%;
 			margin: 0;
+			h1 {
+				font-size: $xlarge-font-size;
+			}
+			h3 {
+				font-size: $base-font-size;
+			}
 		}
 	}

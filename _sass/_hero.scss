@@ -6,12 +6,15 @@
 	background-size: cover;
 	text-align: center;
 	color: $white;
+	@extend .flex-aligner;
 	.wrapper {
 		width: 600px + $spacing-unit;
 	    margin: auto;
 	}
 	.content {
-		padding: $spacing-unit * 2 $spacing-unit / 2;
+		padding: $spacing-unit / 2;
+		@extend .flex-aligner-item;
+		@extend .flex-aligner-item--fixed;
 	}
 	h1 {
 		font-size: $xxlarge-font-size;
@@ -48,20 +51,24 @@
 		}
 	}
 	.social-media-list {
-		margin: $spacing-unit * 2 auto;
+		margin: $spacing-unit * 2 auto 0;
 		li {
 			display: inline;
-			padding: $spacing-unit / 2;
-			opacity: .7;
-			&:hover {
-				opacity: 1.0;
+			a {
+				display: inline-block;
+				padding: $spacing-unit / 3;
+				opacity: .8;
+				&:hover, &:active {
+					opacity: 1.0;
+					@include transform(translateY(-2px));
+				}
 			}
 			.icon>svg {
 				path {
 				fill: $white;
-				&:hover {
-					fill: $white;
-				}
+					&:hover {
+						fill: $white;
+					}
 				}
 			}
 		}

@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -21,10 +19,6 @@ body {
     color: $grayDark;
     background-color: $grayLight;
     -webkit-text-size-adjust: 100%;
-}
-
-.page-content {
-    display: none;
 }
 
 /**
@@ -80,6 +74,7 @@ li {
 a {
     color: $blue;
     text-decoration: none;
+    @include transition(all, 0.2s, ease-in-out);
 
     &:visited {
         color: darken($blue, 15%);
@@ -88,10 +83,9 @@ a {
     &:hover {
         color: $blueLight;
         text-decoration: none;
+        @include transition(all, 0.2s, ease-in-out);
     }
 }
-
-
 
 /**
  * Blockquotes
@@ -136,7 +130,6 @@ pre {
     }
 }
 
-
 /**
  * Clearfix
  */
@@ -147,8 +140,6 @@ pre {
         clear: both;
     }
 }
-
-
 
 /**
  * Icons
