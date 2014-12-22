@@ -93,22 +93,52 @@ $device-small:     			600px;
 	-o-transform: $string;
 }
 
+@mixin animation($animate...) {
+    $max: length($animate);
+    $animations: '';
+
+    @for $i from 1 through $max {
+        $animations: #{$animations + nth($animate, $i)};
+
+        @if $i < $max {
+            $animations: #{$animations + ", "};
+        }
+    }
+    -webkit-animation: $animations;
+    -moz-animation:    $animations;
+    -o-animation:      $animations;
+    animation:         $animations;
+}
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+// Animations
+
+@include keyframes(fadein) {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
 .hidden {
     display: none !important;
     visibility: hidden;
 }
 
-// Hide content until load
-
 .page-content {
-    opacity: 0;
-    @include transition(opacity, 1s, ease-in);
-}
-
-// Show it
-
-.page-content.load {
-	opacity: 1;
+    @include animation('fadein 1.5s 1');
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
