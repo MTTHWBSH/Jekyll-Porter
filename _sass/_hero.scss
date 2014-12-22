@@ -1,0 +1,70 @@
+/**
+ * Site header
+ */
+.hero {
+	background: url('/assets/images/hero.jpg');
+	background-size: cover;
+	text-align: center;
+	color: $white;
+	.wrapper {
+		padding: $spacing-unit * 2;
+		width: 600px;
+		display: inline-block;
+	    top: 0;
+	    bottom:0%;
+	    margin: auto;
+	}
+	h1 {
+		font-size: $xxlarge-font-size;
+		font-family: $base-font-family;
+		font-weight: 300;
+		line-height: 1.0;
+		span {
+			font-family: $base-font-family-xlight;
+		}
+	}
+	h3 {
+		font-size: $large-font-size;
+		font-family: $base-font-family-xlight;
+		letter-spacing: 1.0px;
+		line-height: 1.25;
+		span {
+			font-family: $base-font-family;
+		}
+		a {
+			border-bottom: 2px dotted $white;
+		}
+	}
+	.logo {
+		height: 150px;
+		width: 150px;
+		border-radius: 100%;
+		border: 2px solid $grayLight;
+		margin: $spacing-unit auto;
+	}
+	a {
+		color: $white;
+		&:hover {
+			color: $white;
+		}
+	}
+	.social-media-list {
+		margin: $spacing-unit * 2 auto;
+		li {
+			display: inline;
+			padding: $spacing-unit / 2;
+			opacity: .7;
+			&:hover {
+				opacity: 1.0;
+			}
+			.icon>svg {
+				path {
+				fill: $white;
+				&:hover {
+					fill: $white;
+				}
+				}
+			}
+		}
+	}
+}

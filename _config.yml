@@ -5,6 +5,9 @@ baseurl: ""
 url: "http://mtthwbsh.com"
 twitter_username: MTTHWBSH
 github_username:  MTTHWBSH
+dribbble_username: MTTHWBSH
+linkedin_username: matthewallenbush
+email: bushmat4@gmail.com
 
 # Build settings
 markdown: kramdown

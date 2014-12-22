@@ -14,10 +14,12 @@ $europaReg: 'EuropaGroSHOP-Reg', 'Helvetica Neue', Helvetica, sans-serif;
 // Variables
 $base-font-family: 			$europaReg;
 $base-font-family-light: 	$europaLight;
+$base-font-family-xlight:   $europaXlight;
 $base-font-size:   			16px;
 $small-font-size:  			$base-font-size * 0.875;
 $large-font-size:  			$base-font-size * 1.25;
-$xlarge-font-soze: 			$base-font-size * 1.5;
+$xlarge-font-size: 			$base-font-size * 1.5;
+$xxlarge-font-size: 		$base-font-size * 3.0;
 $base-line-height: 			1.5;
 
 $spacing-unit:     			30px;
@@ -51,5 +53,6 @@ $device-small:     			600px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout"
+        "layout",
+        "hero"
 ;
