@@ -138,7 +138,7 @@ $device-small:     			600px;
 }
 
 .page-content {
-    @include animation('fadein 1.5s 1');
+    @include animation('fadein 1s 1');
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
