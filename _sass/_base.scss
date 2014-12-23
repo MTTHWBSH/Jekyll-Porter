@@ -129,35 +129,3 @@ pre {
         padding-left: 0;
     }
 }
-
-/**
- * Clearfix
- */
-%clearfix {
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 32px;
-        height: 32px;
-        vertical-align: middle;
-        path {
-            fill: $gray;
-        }
-        &:hover {
-            path {
-                fill: $blue;
-            }
-        }
-    }
-}
