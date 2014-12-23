@@ -8,3 +8,6 @@ $(document).ready ->
     $(".hero").css height: ($(window).height()) + "px"
     return
   return
+$(window).load ->
+  $(".page-content").addClass "load"
+  return
