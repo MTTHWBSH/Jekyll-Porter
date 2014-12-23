@@ -1,6 +1,7 @@
 /**
  * Site header
  */
+
 .hero {
 	background: url('../assets/images/hero.jpg');
 	background-size: cover;
@@ -10,6 +11,9 @@
 	.wrapper {
 		width: 600px + $spacing-unit;
 	    margin: auto;
+	    @include media-query($device-small) {
+	    	margin: 0;
+	    }
 	}
 	.content {
 		padding: $spacing-unit / 2;
@@ -24,6 +28,9 @@
 		span {
 			font-family: $base-font-family-xlight;
 		}
+		@include media-query($device-small) {
+	    	font-size: $xlarge-font-size * 1.5;
+	    }
 	}
 	h3 {
 		font-size: $large-font-size;
@@ -36,6 +43,10 @@
 		a {
 			border-bottom: 2px dotted $white;
 		}
+		@include media-query($device-small) {
+			font-size: $base-font-size;
+			margin-top: $spacing-unit / 2;
+	    }
 	}
 	.logo {
 		height: 150px;
