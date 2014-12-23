@@ -4,9 +4,9 @@
 @charset "utf-8";
 
 // Fonts
-@font-face {font-family: 'EuropaGroSHOP-XLig';src: url('{{ base.url }}/assets/fonts/2963C4_0_0.eot');src: url('{{ base.url }}/assets/fonts/2963C4_0_0.eot?#iefix') format('embedded-opentype'),url('{{ base.url }}/assets/fonts/2963C4_0_0.woff') format('woff'),url('{{ base.url }}/assets/fonts/2963C4_0_0.ttf') format('truetype'),url('{{ base.url }}/assets/fonts/2963C4_0_0.svg#wf') format('svg');}  
-@font-face {font-family: 'EuropaGroSHOP-Reg';src: url('{{ base.url }}/assets/fonts/2963C4_1_0.eot');src: url('{{ base.url }}/assets/fonts/2963C4_1_0.eot?#iefix') format('embedded-opentype'),url('{{ base.url }}/assets/fonts/2963C4_1_0.woff') format('woff'),url('{{ base.url }}/assets/fonts/2963C4_1_0.ttf') format('truetype'),url('{{ base.url }}/assets/fonts/2963C4_1_0.svg#wf') format('svg');}
-@font-face {font-family: 'EuropaGroSHOP-Lig';src: url('{{ base.url }}/assets/fonts/2963C4_2_0.eot');src: url('{{ base.url }}/assets/fonts/2963C4_2_0.eot?#iefix') format('embedded-opentype'),url('{{ base.url }}/assets/fonts/2963C4_2_0.woff') format('woff'),url('{{ base.url }}/assets/fonts/2963C4_2_0.ttf') format('truetype'),url('{{ base.url }}/assets/fonts/2963C4_2_0.svg#wf') format('svg');}
+@font-face {font-family: 'EuropaGroSHOP-XLig';src: url('../assets/fonts/2963C4_0_0.eot');src: url('../assets/fonts/2963C4_0_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/2963C4_0_0.woff') format('woff'),url('../assets/fonts/2963C4_0_0.ttf') format('truetype'),url('../assets/fonts/2963C4_0_0.svg#wf') format('svg');}  
+@font-face {font-family: 'EuropaGroSHOP-Reg';src: url('../assets/fonts/2963C4_1_0.eot');src: url('../assets/fonts/2963C4_1_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/2963C4_1_0.woff') format('woff'),url('../assets/fonts/2963C4_1_0.ttf') format('truetype'),url('../assets/fonts/2963C4_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'EuropaGroSHOP-Lig';src: url('../assets/fonts/2963C4_2_0.eot');src: url('../assets/fonts/2963C4_2_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/2963C4_2_0.woff') format('woff'),url('../assets/fonts/2963C4_2_0.ttf') format('truetype'),url('../assets/fonts/2963C4_2_0.svg#wf') format('svg');}
 $europaXlight: 'EuropaGroSHOP-XLig', 'Helvetica Neue', Helvetica, sans-serif;
 $europaLight: 'EuropaGroSHOP-Lig', 'Helvetica Neue', Helvetica, sans-serif;
 $europaReg: 'EuropaGroSHOP-Reg', 'Helvetica Neue', Helvetica, sans-serif;
