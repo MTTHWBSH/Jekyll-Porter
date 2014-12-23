@@ -3,18 +3,8 @@ layout: default
 ---
 
 <div class="home">
-  {% include hero.html %}
-<!--   <div class="wrapper">
-	  <ul class="post-list">
-	    {% for post in site.posts %}
-	      <li>
-	        <h2>
-	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	        </h2>
-	      </li>
-	    {% endfor %}
-	  </ul>
-	  {% include resume.html %}
-	  {% include contact.html %}
-  </div> -->
+	{% include hero.html %}
+	{% include work.html %}
+	{% include resume.html %}
+	{% include contact.html %}
 </div>

@@ -1,0 +1,52 @@
+/**
+ * Resume Section
+ */
+
+.resume {
+	background-color: darken($grayLight, 2.5%);
+	h1 {
+		text-align: center;
+		color: $gray;
+		margin-bottom: $spacing-unit / 2;
+		letter-spacing: 2px;
+	}
+
+	h2  {
+	color: $gray;
+	font-family: $base-font-family;
+	font-size: 28px;
+	margin: 0px 0px 10px 0px;
+	letter-spacing: 2px;
+	}
+	h3  {
+	font-family: $base-font-family;
+	font-size: 18px;
+	margin: 0;
+	line-height: 24px;
+	span  {
+	  font-family: $base-font-family-xlight;
+	  &.pull-right  {
+	    float: right;
+	    font-size: 12px;
+	  }
+	}
+	}
+	ul  {
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-size:  14px;
+	list-style-type: none;
+		li  {
+		  font-family: $base-font-family-light;
+		  line-height: 20px;
+		  &:before { 
+		    content: "+ "; 
+		    color: $gray;
+		  }
+		  &.star:before  {
+		    content: "★ ";
+		    font-size: 10px;
+		  }
+		}
+	}
+}

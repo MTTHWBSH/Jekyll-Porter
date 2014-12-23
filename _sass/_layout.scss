@@ -1,16 +1,25 @@
 /**
- * hero
+ * Layout
  */
-	@include media-query($device-small) {
-		.hero .wrapper {
-			width: 100%;
-			margin: 0;
-			h1 {
-				font-size: $xlarge-font-size;
-			}
-			h3 {
-				font-size: $base-font-size;
-				margin-top: $spacing-unit / 2;
-			}
+
+ .wrapper {
+ 	max-width: $content-width;
+ 	margin: auto;
+ }
+
+/**
+ * Hero
+ */
+@include media-query($device-small) {
+	.hero .wrapper {
+		width: 100%;
+		margin: 0;
+		h1 {
+			font-size: $xlarge-font-size;
+		}
+		h3 {
+			font-size: $base-font-size;
+			margin-top: $spacing-unit / 2;
 		}
 	}
+}

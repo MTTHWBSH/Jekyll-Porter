@@ -1,34 +1,37 @@
 <section class="contact">
-  <ul class="social-media-list">
-    
-    {% if site.email %}
-    <li>
-      {% include icons/mail.html %}
-    </li> 
-    {% endif %}
+  <div class="wrapper">
+    <h1>Find Me</h1>
+    <ul class="social-media-list">
+      
+      {% if site.email %}
+      <li>
+        {% include icons/mail.html %}
+      </li> 
+      {% endif %}
 
-    {% if site.github_username %}
-    <li>
-      {% include icons/github.html %}
-    </li>
-    {% endif %}
+      {% if site.github_username %}
+      <li>
+        {% include icons/github.html %}
+      </li>
+      {% endif %}
 
-    {% if site.twitter_username %}
-    <li>
-      {% include icons/twitter.html %}
-    </li>
-    {% endif %}
+      {% if site.twitter_username %}
+      <li>
+        {% include icons/twitter.html %}
+      </li>
+      {% endif %}
 
-    {% if site.dribbble_username %}
-    <li>
-      {% include icons/dribbble.html %}
-    </li>
-    {% endif %}
+      {% if site.dribbble_username %}
+      <li>
+        {% include icons/dribbble.html %}
+      </li>
+      {% endif %}
 
-    {% if site.linkedin_username %}
-    <li>
-      {% include icons/linkedin.html %}
-    </li>
-    {% endif %}
-  </ul>
+      {% if site.linkedin_username %}
+      <li>
+        {% include icons/linkedin.html %}
+      </li>
+      {% endif %}
+    </ul>
+  </div>
 </section>

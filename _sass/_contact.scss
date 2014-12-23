@@ -1,0 +1,36 @@
+/**
+ * Contact Section
+ */
+
+.contact {
+	padding: $spacing-unit 0;
+	text-align: center;
+	background: darken($grayLight, 5%);
+	h1 {
+		color: $gray;
+		letter-spacing: 2px;
+		margin-bottom: $spacing-unit / 2;
+	}
+	.social-media-list {
+		li {
+			display: inline;
+			a {
+				display: inline-block;
+				padding: $spacing-unit / 3;
+				opacity: .7;
+				&:hover, &:active {
+					opacity: 1.0;
+					@include transform(translateY(-2px));
+				}
+			}
+			.icon>svg {
+				path {
+				fill: $gray;
+					&:hover {
+						fill: $gray;
+					}
+				}
+			}
+		}
+	}
+}
