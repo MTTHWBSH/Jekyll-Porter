@@ -3,13 +3,8 @@
  */
 
 .contact {
-	padding: $spacing-unit 0;
+	background-color: $white;
 	text-align: center;
-	h1 {
-		color: $gray;
-		letter-spacing: 2px;
-		margin-bottom: $spacing-unit / 2;
-	}
 	.social-media-list {
 		li {
 			display: inline;

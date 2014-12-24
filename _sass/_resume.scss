@@ -3,45 +3,38 @@
  */
 
 .resume {
-	h1 {
-		text-align: center;
-		color: $gray;
-		margin-bottom: $spacing-unit / 2;
-		letter-spacing: 2px;
-	}
-
 	h2  {
 	color: $gray;
 	font-family: $base-font-family;
-	font-size: 28px;
-	margin: 0px 0px 10px 0px;
+	font-size: $large-font-size;
+	margin-bottom: $spacing-unit / 3;
 	letter-spacing: 2px;
 	}
 	h3  {
 	font-family: $base-font-family;
-	font-size: 18px;
+	font-size: $base-font-size;
 	margin: 0;
-	line-height: 24px;
+	line-height: $base-line-height / 1.2;
 	span  {
 	  font-family: $base-font-family-xlight;
 	  &.pull-right  {
 	    float: right;
-	    font-size: 12px;
+	    font-size: $small-font-size;
 	    @include media-query($device-small) {
 	    	float: none;
 	    	display: block;
+	    	margin: 5px 0;
 	    }
 	  }
 	}
 	}
 	ul  {
-	margin: 0 0 20px 0;
-	padding: 0;
-	font-size:  14px;
+	margin-bottom: $spacing-unit / 2;
+	font-size:  $small-font-size;
 	list-style-type: none;
 		li  {
 		  font-family: $base-font-family-light;
-		  line-height: 20px;
+		  line-height: $base-line-height;
 		  &:before { 
 		    content: "+ "; 
 		    color: $gray;
