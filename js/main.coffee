@@ -3,15 +3,20 @@
 ---
 
 $(document).ready ->
-  heroSize()
-  return
+	heroSize()
+	return
+  
 $(window).load ->
-  showContent()
-  return
+	showContent()
+	return
 
 $(window).scroll (e) ->
-  parallax()
-  return
+	parallax()
+	return
+
+$(window).resize ->
+	heroSize()
+	return
 
 parallax = ->
   scrolled = $(window).scrollTop()
@@ -23,11 +28,9 @@ parallax = ->
 
 heroSize = ->
 	$(".hero").css height: ($(window).height()) + "px"
-	$(window).resize ->
-	$(".hero").css height: ($(window).height()) + "px"
+	$(".parallax-content").css('margin-top', ($(window).height()) + "px")
 	return
 
 showContent = ->
 	$(".page-content").addClass "load"
 	return
-
