@@ -1,9 +1,10 @@
 ---
+layout: post
+permalink: /astoryabout-us/
 title: 'astoryabout.us &#8211; A &#8220;Storied&#8221; Proposal'
 author: mtthwbsh
 excerpt: An exploration in illustration, storytelling, and animation to convince my girlfriend to marry me
-layout: post
-permalink: /astoryabout-us/
+thumbnail: /assets/posts/astoryabout/astoryabout-thumbnail.png
 categories:
   - Portfolio
 ---

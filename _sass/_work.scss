@@ -2,23 +2,49 @@
  * Work Section
  */
 
-.work {
+section.work {
 	background-color: $white;
 	text-align: center;
+	padding: $spacing-unit 0 0;
 	.post-preview {
 		width: 100%;
 		height: auto;
 		display: block;
 		@include clearfix;
 		a img {
-			width: 30%;
+			width: 50%;
 			height: auto;
 			overflow: hidden;
+			opacity: .7;
+			@include clearfix;
+			@include transition(all, 0.3s, ease-in-out);
+			&:hover {
+				opacity: 1;
+			}
+		}
+		.excerpt-wrapper {
+			width: 50%;
+			@extend .flex-aligner;
+			.excerpt {
+				@extend .flex-aligner-item;
+				@extend .flex-aligner-item--fixed;
+			}
+		}
+	}
+	li.post-preview:nth-child(odd) {
+		a img {
 			float: left;
 		}
-		.excerpt {
+		.excerpt-wrapper {
 			float: left;
-			width: 70%;
+		}
+	}
+	li.post-preview:nth-child(even) {
+		a img {
+			float: right;
+		}
+		.excerpt-wrapper {
+			float: left;
 		}
 	}
 }
