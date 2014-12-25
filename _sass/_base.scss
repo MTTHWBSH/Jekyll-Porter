@@ -8,6 +8,13 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+::selection {
+  background: $grayLight;
+}
+::-moz-selection {
+  background: $grayLight;
+}
+
 .parallax-content {
     z-index: 1000;
     background-color: $white;
@@ -243,16 +250,11 @@ li {
 a {
     color: $blueLight;
     text-decoration: none;
-    @include transition(all, 0.2s, ease-in-out);
-
-    &:visited {
-        color: darken($blue, 15%);
-    }
-
+    @include transition(all, 0.2s, linear);
     &:hover {
-        color: $blue;
+        color: darken($blueLight, 15%);
         text-decoration: none;
-        @include transition(all, 0.2s, ease-in-out);
+        @include transition(all, 0.2s, linear);
     }
 }
 
