@@ -5,4 +5,20 @@
 .work {
 	background-color: $white;
 	text-align: center;
+	.post-preview {
+		width: 100%;
+		height: auto;
+		display: block;
+		@include clearfix;
+		a img {
+			width: 30%;
+			height: auto;
+			overflow: hidden;
+			float: left;
+		}
+		.excerpt {
+			float: left;
+			width: 70%;
+		}
+	}
 }

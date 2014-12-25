@@ -76,7 +76,7 @@ section {
     flex: none;
 }
 
-%clearfix {
+@mixin clearfix {
     &:after {
         content: "";
         display: table;
