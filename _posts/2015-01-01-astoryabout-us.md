@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /astoryabout-us/
-title: 'astoryabout.us &#8211; Proposal and information hub for wedding guests'
+title: 'astoryabout.us'
 author: mtthwbsh
 excerpt: An exploration in illustration, storytelling, and animation to convince my girlfriend (now wife) to marry me; as well as a one stop shop containing all the information my wedding guests needed
 thumbnail: /assets/posts/astoryabout/astoryabout-thumbnail.png

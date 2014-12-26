@@ -32,7 +32,8 @@ $blueLight: 				#3498db;
 $blue: 						#2e8dcc;
 $blueDark: 					#2c3e50;
 
-$content-width:				1000px;		
+$content-width:				1000px;	
+$post-width:				760px;	
 
 // Breakpoint Widths
 $device-large:	   			1200px;			
@@ -48,5 +49,6 @@ $device-small:     			600px;
     "work",
     "resume",
     "contact",
+    "post",
     "layout"
 ;

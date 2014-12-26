@@ -5,7 +5,7 @@
 $(document).ready ->
 	heroSize()
 	return
-  
+
 $(window).load ->
 	showContent()
 	return
@@ -19,12 +19,12 @@ $(window).resize ->
 	return
 
 parallax = ->
-  scrolled = $(window).scrollTop()
-  $(".hero").css "top", -(scrolled * 0.0315) + "rem"
-  $(".hero .content").css "top", -(scrolled * -0.005) + "rem"
-  $(".hero .content").css "opacity", 1 - (scrolled * .00175)
-  $(".hero .bounce").css "opacity", 1 - (scrolled * .025)
-  return
+	scrolled = $(window).scrollTop()
+	$(".hero").css "top", -(scrolled * 0.0315) + "rem"
+	$(".hero .content").css "top", -(scrolled * -0.005) + "rem"
+	$(".hero .content").css "opacity", 1 - (scrolled * .00175)
+	$(".hero .bounce").css "opacity", 1 - (scrolled * .025)
+	return
 
 heroSize = ->
 	$(".hero").css height: ($(window).height()) + "px"
