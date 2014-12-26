@@ -18,6 +18,7 @@ My most common projects involved full services for university news outlets; whic
 + [Grand Valley Lanthorn][link4]
 + [The Michigan Times][link5]
 + [Near Duke Housing][link6]
++ [The Daily Gamecock][link7]
 
 All projects touted RWD practices for consumption on the go, with applications ranging from straightforward news outlets to a responsive web app to find student housing:
 
@@ -34,6 +35,7 @@ All projects touted RWD practices for consumption on the go, with applications r
 [link4]:			http://www.lanthorn.com/
 [link5]:			http://www.themichigantimes.com/
 [link6]:			http://www.nearduke.com/housing
+[link7]:			http://www.dailygamecock.com/
 
 <!-- Images -->
 [image1]: 			/assets/posts/snworks/snworks-thumbnail.png
