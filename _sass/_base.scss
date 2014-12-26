@@ -302,6 +302,15 @@ pre {
 }
 
 /**
+ * Horizontal Rule
+ */
+
+ hr {
+    margin: $spacing-unit / 2 0;
+    border: 1px $grayDark dashed;
+ }
+
+/**
  * Medida Queries
  */
 @mixin media-query($device) {
