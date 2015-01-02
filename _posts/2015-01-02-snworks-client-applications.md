@@ -24,9 +24,9 @@ All projects touted RWD practices for consumption on the go, with applications r
 
 ![Website screenshot][image2]
 
----
+![Website screenshot][image3] 
 
-![Website screenshot][image3]
+![Website screenshot][image4]
 
 <!-- Links -->
 [link1]:			http://getsnworks.com/
@@ -40,4 +40,5 @@ All projects touted RWD practices for consumption on the go, with applications r
 <!-- Images -->
 [image1]: 			/assets/posts/snworks/snworks-thumbnail.png
 [image2]: 			/assets/posts/snworks/Otterbein_dropdown.png
-[image3]: 			/assets/posts/snworks/duke2.png
+[image3]:			/assets/posts/snworks/dg-ipad.png
+[image4]: 			/assets/posts/snworks/duke2.png

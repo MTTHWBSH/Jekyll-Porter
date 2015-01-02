@@ -15,11 +15,7 @@ As lead designer and developer for an Eli Review marketing site redesign, I was 
 
 ![Website screenshot][image1]
 
----
-
 ![Website screenshot][image2]
-
----
 
 ![Website screenshot][image3]
 
