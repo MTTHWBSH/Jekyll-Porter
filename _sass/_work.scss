@@ -10,14 +10,20 @@ section.work {
 	.post-preview {
 		width: 100%;
 		height: auto;
-		display: block;
-		@include clearfix;
+		@extend .flex-aligner;
+		&:nth-child(odd) {
+			-webkit-flex-direction: row; 
+			flex-direction: row;
+		}
+		&:nth-child(even) {
+			-webkit-flex-direction: row-reverse; 
+			flex-direction: row-reverse;
+		}
 		a img {
-			width: 50%;
+			width: 100%;
 			height: auto;
 			overflow: hidden;
 			opacity: .9;
-			@include clearfix;
 			@include transition(all, 0.3s, ease-in-out);
 			&:hover {
 				opacity: 1;
@@ -25,15 +31,14 @@ section.work {
 		}
 		.excerpt-wrapper {
 			width: 50%;
+			height: 100%;
 			text-align: center;
-			@extend .flex-aligner;
+			@extend .flex-aligner-item;
+			@extend .flex-aligner-item--fixed;
 			.excerpt {
 				width: 90%;
 				max-width: 600px;
 				margin: auto;
-				padding: 15% 5%;
-				@extend .flex-aligner-item;
-				@extend .flex-aligner-item--fixed;
 				@include media-query($device-medium) {
 					padding: 0;
 					width: 100%;
@@ -54,45 +59,6 @@ section.work {
 			color: $gray;
 			@include media-query($device-medium) {
 		 		display: none;
-		 	}
-		}
-	}
-	li.post-preview:nth-child(odd) {
-		a img {
-			float: left;
-			@include media-query($device-medium) {
-				width: 100%;
-		 		float: none;
-		 		display: block;
-
-		 	}
-		}
-		.excerpt-wrapper {
-			float: left;
-			@include media-query($device-medium) {
-				width: 100%;
-		 		float: none;
-		 		display: block;
-		 		height: auto !important;
-		 	}
-		}
-	}
-	li.post-preview:nth-child(even) {
-		a img {
-			float: right;
-			@include media-query($device-medium) {
-				width: 100%;
-		 		float: none;
-		 		display: block;
-		 	}
-		}
-		.excerpt-wrapper {
-			float: left;
-			@include media-query($device-medium) {
-				width: 100%;
-		 		float: none;
-		 		display: block;
-		 		height: auto !important;
 		 	}
 		}
 	}
