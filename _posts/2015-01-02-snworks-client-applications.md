@@ -3,7 +3,7 @@ layout: post
 permalink: /snworks-client-applications/
 title: 'SNWorks Client Applications'
 author: mtthwbsh
-excerpt: Client work including in-house developed CMS integration, UI & experience design, web app development, and more. 
+excerpt: Client work including in-house developed CMS integration, UI & experience design, web app development, and more 
 thumbnail: /assets/posts/snworks/snworks-thumbnail.png
 categories:
   - Portfolio
