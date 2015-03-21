@@ -4,7 +4,7 @@ author: mtthwbsh
 excerpt: 'Custom WordPress theme for Eli Review - educational software developed by Drawbridge LLC'
 layout: post
 permalink: /eli-review/
-thumbnail: /assets/posts/elireview/elireview-thumbnail.png
+thumbnail: /assets/images/elireview-thumbnail.png
 categories:
   - Portfolio
 ---
@@ -23,6 +23,6 @@ As lead designer and developer for an Eli Review marketing site redesign, I was 
 [link1]:      http://elireview.com
 
 <!-- Images -->
-[image1]:       /assets/posts/elireview/screenshot1.png
-[image2]:       /assets/posts/elireview/screenshot2.png
-[image3]:       /assets/posts/elireview/screenshot3.png
+[image1]:       /assets/images/screenshot1.png
+[image2]:       /assets/images/screenshot2.png
+[image3]:       /assets/images/screenshot3.png

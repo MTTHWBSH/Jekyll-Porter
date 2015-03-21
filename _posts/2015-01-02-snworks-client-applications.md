@@ -4,7 +4,7 @@ permalink: /snworks-client-applications/
 title: 'SNWorks Client Applications'
 author: mtthwbsh
 excerpt: Client work including in-house developed CMS integration, UI & experience design, web app development, and more 
-thumbnail: /assets/posts/snworks/snworks-thumbnail.png
+thumbnail: /assets/images/snworks-thumbnail.png
 categories:
   - Portfolio
 ---
@@ -38,7 +38,7 @@ All projects touted RWD practices for consumption on the go, with applications r
 [link7]:			http://www.dailygamecock.com/
 
 <!-- Images -->
-[image1]: 			/assets/posts/snworks/snworks-thumbnail.png
-[image2]: 			/assets/posts/snworks/Otterbein_dropdown.png
-[image3]:			/assets/posts/snworks/dg-ipad.png
-[image4]: 			/assets/posts/snworks/duke2.png
+[image1]: 			/assets/images/snworks-thumbnail.png
+[image2]: 			/assets/images/Otterbein_dropdown.png
+[image3]:			/assets/images/dg-ipad.png
+[image4]: 			/assets/images/duke2.png
