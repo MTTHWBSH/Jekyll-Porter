@@ -1,16 +1,19 @@
-var gulp = require('gulp'),
-    shell = require('gulp-shell');
-    minifyHTML = require('gulp-minify-html');
-    imagemin = require('gulp-imagemin'),
-    pngquant = require('imagemin-pngquant'),
-    jpegtran = require('imagemin-jpegtran'),
-    gifsicle = require('imagemin-gifsicle'),
-    optipng = require('imagemin-optipng');
-    sass = require('gulp-sass'),
-    importCss = require('gulp-import-css'),
-    autoprefixer = require('gulp-autoprefixer'),
-    minifyCss = require('gulp-minify-css'),
-    rename = require('gulp-rename');
+var gulp = require('gulp');
+
+// Plugins
+
+var shell = require('gulp-shell'),
+	minifyHTML = require('gulp-minify-html'),
+	imagemin = require('gulp-imagemin'),
+	pngquant = require('imagemin-pngquant'),
+	jpegtran = require('imagemin-jpegtran'),
+	gifsicle = require('imagemin-gifsicle'),
+	optipng = require('imagemin-optipng'),
+	sass = require('gulp-sass'),
+	importCss = require('gulp-import-css'),
+	autoprefixer = require('gulp-autoprefixer'),
+	minifyCss = require('gulp-minify-css'),
+	rename = require('gulp-rename');
 
 gulp.task('jekyll', function() {
   return gulp.src('index.html', { read: false })
