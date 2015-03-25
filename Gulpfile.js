@@ -1,19 +1,18 @@
 var gulp = require('gulp');
 
-// Plugins
-
-var shell = require('gulp-shell'),
-	minifyHTML = require('gulp-minify-html'),
-	imagemin = require('gulp-imagemin'),
-	pngquant = require('imagemin-pngquant'),
-	jpegtran = require('imagemin-jpegtran'),
-	gifsicle = require('imagemin-gifsicle'),
-	optipng = require('imagemin-optipng'),
-	sass = require('gulp-sass'),
-	importCss = require('gulp-import-css'),
-	autoprefixer = require('gulp-autoprefixer'),
-	minifyCss = require('gulp-minify-css'),
-	rename = require('gulp-rename');
+var shell = require('gulp-shell');
+var	minifyHTML = require('gulp-minify-html');
+var	imagemin = require('gulp-imagemin');
+var	pngquant = require('imagemin-pngquant');
+var	jpegtran = require('imagemin-jpegtran');
+var	gifsicle = require('imagemin-gifsicle');
+var	optipng = require('imagemin-optipng');
+var	sass = require('gulp-sass');
+var	importCss = require('gulp-import-css');
+var	autoprefixer = require('gulp-autoprefixer');
+var	minifyCss = require('gulp-minify-css');
+var	rename = require('gulp-rename');
+var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('jekyll', function() {
   return gulp.src('index.html', { read: false })
@@ -41,8 +40,8 @@ gulp.task('css', ['jekyll'], function() {
 });
 
 gulp.task('images', ['jekyll'], function () {
-    return gulp.src('images/**')
-        .pipe(plugins.imagemin({
+    return gulp.src('assets/images/**')
+        .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant(), jpegtran(), optipng(), gifsicle()]
