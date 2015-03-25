@@ -20,13 +20,16 @@ gulp.task('jekyll', function() {
       'jekyll build'
   ]));
 });
-
+ 
 gulp.task('html', ['jekyll'], function() {
-    return gulp.src('_site/**/*.html')
-        .pipe(minifyHTML({
-            quotes: true
-        }))
-        .pipe(gulp.dest('_site/'));
+  var opts = {
+    conditionals: true,
+    quotes:true
+  };
+ 
+  return gulp.src('_site/*/*.html')
+    .pipe(minifyHTML(opts))
+    .pipe(gulp.dest('_site/'));
 });
 
 gulp.task('css', ['jekyll'], function() {
