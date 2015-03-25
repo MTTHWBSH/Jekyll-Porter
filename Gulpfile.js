@@ -8,11 +8,10 @@ var	jpegtran = require('imagemin-jpegtran');
 var	gifsicle = require('imagemin-gifsicle');
 var	optipng = require('imagemin-optipng');
 var	sass = require('gulp-sass');
-var	importCss = require('gulp-import-css');
+var	importCSS = require('gulp-import-css');
 var	autoprefixer = require('gulp-autoprefixer');
-var	minifyCss = require('gulp-minify-css');
+var	minifyCSS = require('gulp-minify-css');
 var	rename = require('gulp-rename');
-var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('jekyll', function() {
   return gulp.src('index.html', { read: false })
@@ -32,15 +31,23 @@ gulp.task('html', ['jekyll'], function() {
     .pipe(gulp.dest('_site/'));
 });
 
-gulp.task('css', ['jekyll'], function() {
-   return gulp.src('css/main.scss')
-       .pipe(sass())
-       .pipe(importCss())
-       .pipe(autoprefixer())
-       .pipe(minifyCss({keepBreaks:false}))
-       .pipe(rename('main.css'))
-       .pipe(gulp.dest('_site/css/'));
+// gulp.task('css', function() {
+//   return gulp.src('css/main.scss')
+//    .pipe(sass())
+//    .pipe(autoprefixer())
+//    .pipe(minifyCSS({keepBreaks:false}))
+//    .pipe(rename('main.css'))
+//    .pipe(gulp.dest('_site/css/'));
+// });
+
+gulp.task('css', function () {
+  return gulp.src('css/main.scss')
+    .pipe(sass())
+    .pipe(autoprefixer())
+    .pipe(rename('main.css'))
+    .pipe(gulp.dest('_site/css/'));
 });
+
 
 gulp.task('images', ['jekyll'], function () {
     return gulp.src('assets/images/**')
