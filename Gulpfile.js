@@ -40,11 +40,19 @@ gulp.task('html', ['jekyll'], function() {
 //    .pipe(gulp.dest('_site/css/'));
 // });
 
+// gulp.task('css', function () {
+//   return gulp.src('css/main.scss')
+//     .pipe(sass())
+//     .pipe(autoprefixer())
+//     .pipe(rename('main.css'))
+//     .pipe(gulp.dest('_site/css/'));
+// });
+
 gulp.task('css', function () {
   return gulp.src('css/main.scss')
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(rename('main.css'))
+    // .pipe(rename('main.css'))
     .pipe(gulp.dest('_site/css/'));
 });
 
@@ -60,3 +68,32 @@ gulp.task('images', ['jekyll'], function () {
 });
 
 gulp.task('build', ['html', 'css', 'images']);
+
+// var gulp = require('gulp');
+// var sass = require('gulp-sass');
+// var autoprefixer = require('gulp-autoprefixer');
+// var notify = require('gulp-notify');
+
+// var paths = {
+//   scss: 'css/main.scss',
+//   css: 'public/css',
+//   es6: 'public/es6/**/*',
+//   js: 'public/js',
+//   images: 'public/img/**/*'
+// };
+
+// gulp.task('scss', function () {
+//   return gulp.src(paths.scss)
+//     .pipe(sass())
+//     .pipe(autoprefixer())
+//     .pipe(gulp.dest(paths.css))
+//     .pipe(notify('Gulp SCSS Complete'));
+// });
+
+// gulp.task('watch', function () {
+//   gulp.watch(paths.scss, ['scss']);
+//   gulp.watch(paths.es6, ['es6']);
+// });
+
+// gulp.task('serve', ['watch']);
+// gulp.task('build', ['scss']);
