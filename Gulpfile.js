@@ -52,7 +52,7 @@ gulp.task('css', function () {
   return gulp.src('css/main.scss')
     .pipe(sass())
     .pipe(autoprefixer())
-    // .pipe(rename('main.css'))
+    .pipe(rename('main.css'))
     .pipe(gulp.dest('_site/css/'));
 });
 
