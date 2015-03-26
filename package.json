@@ -1,0 +1,22 @@
+{
+  "name": "Jekyll-Porter",
+  "version": "1.0.0",
+  "description": "portfolio jekyll theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MTTHWBSH/Jekyll-Porter.git"
+  },
+  "author": "Matthew Bush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTTHWBSH/Jekyll-Porter/issues"
+  },
+  "homepage": "https://github.com/MTTHWBSH/Jekyll-Porter",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
