@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MTTHWBSH/Jekyll-Porter",
   "devDependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-imagemin": "^2.2.1"
   }
 }
