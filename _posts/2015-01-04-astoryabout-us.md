@@ -4,7 +4,7 @@ permalink: /astoryabout-us/
 title: 'astoryabout.us'
 author: mtthwbsh
 excerpt: An exploration in illustration, storytelling, and animation to convince my girlfriend (now wife) to marry me; as well as a one stop shop containing all the information our wedding guests needed
-thumbnail: /assets/posts/astoryabout/astoryabout-thumbnail.png
+thumbnail: /assets/images/astoryabout-thumbnail.png
 categories:
   - Portfolio
 ---
@@ -48,8 +48,8 @@ One place I had to ignore this rule a little bit was the photo gallery. With lot
 [github]:			https://github.com/MTTHWBSH/a_story_about_us
 
 <!-- Images -->
-[image1]: 			/assets/posts/astoryabout/screenshot.png
-[image2]: 			/assets/posts/astoryabout/analytics.png
-[image3]: 			/assets/posts/astoryabout/hub-home.png
-[image4]: 			/assets/posts/astoryabout/hub-menu.png
-[image5]: 			/assets/posts/astoryabout/hub-photos.png
+[image1]: 			/assets/images/screenshot.png
+[image2]: 			/assets/images/analytics.png
+[image3]: 			/assets/images/hub-home.png
+[image4]: 			/assets/images/hub-menu.png
+[image5]: 			/assets/images/hub-photos.png

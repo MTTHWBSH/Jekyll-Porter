@@ -4,7 +4,7 @@ author: mtthwbsh
 excerpt: An independent study on the d3.js JavaScript library for data visualizations accompanied by two page design layout, and a time capsule for my graduating class
 layout: post
 permalink: /university-projects/
-thumbnail: /assets/posts/universityprojects/dataviz-thumbnail.png
+thumbnail: /assets/images/dataviz-thumbnail.png
 categories:
   - Portfolio
 ---
@@ -35,7 +35,7 @@ As lead developer for Beyond the Banks, I was tasked with leading a team of new 
 [link5]:		http://greenenas.cas.msu.edu/Classes/sta499-master
 
 <!-- Images -->
-[image1]:       /assets/posts/universityprojects/screenshot.png
-[image2]:       /assets/posts/universityprojects/spread.jpg
-[image3]:       /assets/posts/universityprojects/btb-home.png
-[image4]:       /assets/posts/universityprojects/btb-modal.png
+[image1]:       /assets/images/donutchart.png
+[image2]:       /assets/images/spread.jpg
+[image3]:       /assets/images/btb-home.png
+[image4]:       /assets/images/btb-modal.png

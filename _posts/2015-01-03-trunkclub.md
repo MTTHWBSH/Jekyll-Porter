@@ -4,7 +4,7 @@ permalink: /trunkclub/
 title: 'Trunk Club'
 author: mtthwbsh
 excerpt: Various projects contributed to since joining the Trunk Club Engineering team as a software designer & engineer in October, 2013
-thumbnail: /assets/posts/trunkclub/thumbnail.png
+thumbnail: /assets/images/thumbnail.png
 categories:
   - Portfolio
 ---
@@ -46,10 +46,10 @@ All of these experiences were the product of a team and reflect the state they w
 
 
 <!-- Images -->
-[image1]: 			/assets/posts/trunkclub/trunk-preview.png
-[image2]: 			/assets/posts/trunkclub/catalog.png
-[image3]: 			/assets/posts/trunkclub/outfitting.png
-[image4]: 			/assets/posts/trunkclub/stylist1.png
-[image5]: 			/assets/posts/trunkclub/stylist2.png
-[image6]: 			/assets/posts/trunkclub/custom1.png
-[image7]: 			/assets/posts/trunkclub/custom2.png
+[image1]: 			/assets/images/trunk-preview.png
+[image2]: 			/assets/images/catalog.png
+[image3]: 			/assets/images/outfitting.png
+[image4]: 			/assets/images/stylist1.png
+[image5]: 			/assets/images/stylist2.png
+[image6]: 			/assets/images/custom1.png
+[image7]: 			/assets/images/custom2.png
