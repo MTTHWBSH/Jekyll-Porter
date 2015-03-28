@@ -12,9 +12,17 @@ gulp.task('default', ['html', 'images']);
 gulp.task('jekyll', function() {
   return gulp.src('index.html', { read: false })
     .pipe(shell([
-      'jekyll build'
+      'bundle exec jekyll build'
   ]));
 });
+
+gulp.task('serve', ['html', 'images'], function() {
+  return gulp.src('index.html', { read: false })
+  .pipe(shell([
+    'bundle exec jekyll s'
+  ]));
+});
+
 
 gulp.task('html', ['jekyll'], function() {
   var opts = {
