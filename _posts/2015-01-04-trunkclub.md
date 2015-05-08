@@ -36,6 +36,11 @@ Another iOS app we were able to take from product vision & design all the way th
 ![Website screenshot][image6]
 ![Website screenshot][image7]
 
+After spending a lot of time on internal tools, I made it back to member facing products to work on the [Trunk Club iOS App][link5]. Starting with a complete rewrite in Swift (along with a new navigation/info architecture), a small team and I constantly iterated over different tests to produce features that allowed the member to stay more connected to their stylist and allow for more interaction with their wardrobe.
+
+![Application screenshot][image8]
+![Application screenshot][image9]  
+
 All of these experiences were the product of a team and reflect the state they were at during my active design/development. At Trunk Club we have a very iterative / test driven approach and each of these has been continually developed upon since.
 
 <!-- Links -->
@@ -43,6 +48,7 @@ All of these experiences were the product of a team and reflect the state they w
 [link2]:			http://techcrunch.com/2014/07/31/nordstrom-acquires-mens-shopping-service-trunk-club/
 [link3]:			https://www.trunkclub.com/locations
 [link4]:			https://www.trunkclub.com/
+[link5]:			https://itunes.apple.com/us/app/trunk-club-mens-clothing-service/id635441999?mt=8
 
 
 <!-- Images -->
@@ -53,3 +59,5 @@ All of these experiences were the product of a team and reflect the state they w
 [image5]: 			/assets/images/stylist2.png
 [image6]: 			/assets/images/custom1.png
 [image7]: 			/assets/images/custom2.png
+[image8]: 			/assets/images/member-stylist.png
+[image9]: 			/assets/images/member-wardrobe.png
