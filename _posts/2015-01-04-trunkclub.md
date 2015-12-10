@@ -12,11 +12,21 @@ categories:
 
 Since joining the Trunk Club Engineering team in early October, 2013, I've traversed the design and engineering gamut ranging from product discovery / design to application development. Though business needs required my role to be a bit of a generalist at times, my focus for most projects is on product / interface design and UI engineering for web and iOS applications. These projects span a period ranging from a small tech team within a sole Chicago headquarters to working with dozens of world class engineers for [offices across the nation][link3] (not to mention [being acquired][link2]).
 
-My first area of work revolved around the member experience. I spent some time getting my feet wet in the codebase by developing features and fixing bugs for [trunkclub.com][link4]. After this I was part of a small team designing and developing the UI and experience for a business changing feature that allowed members to review a trunk before it was physically shipped (electing to send or not send each item, with feedback for each).
-
 _Note: For some examples throughout this post sensitive business information has been removed_
 
+Projects (in chronological order): [Trunk Preview][#TrunkPreview] [Stylist Catalog][#StylistCatalog] [Stylist iOS App][#StylistiOSApp] [Custom iPad App][#CustomiPadApp] [Member iOS App][#MemberiOSApp]
+
+<div id="TrunkPreview">
+
+### Trunk Preview
+
+My first area of work revolved around the member experience. I spent some time getting my feet wet in the codebase by developing features and fixing bugs for [trunkclub.com][link4]. After this I was part of a small team designing and developing the UI and experience for a business changing feature that allowed members to review a trunk before it was physically shipped (electing to send or not send each item, with feedback for each).
+
 ![Website screenshot][image1]
+
+</div>
+
+<div id="StylistCatalog">
 
 After this I switched my focus to internal applications that help the business run more efficiently. Part of this was designing and developing interface features for an application used by employees to digitally shop our inventory for members. Unlike a typical e-commerce experience, this allows the shopping experience to be completely centralized to the member at hand, providing a simpler playing field for more peresonalized choices.
 
@@ -35,6 +45,8 @@ Another iOS app we were able to take from product vision & design all the way th
 
 ![Website screenshot][image6]
 ![Website screenshot][image7]
+
+</div>
 
 After spending a lot of time on internal tools, I made it back to member facing products to work on the [Trunk Club iOS App][link5]. Starting with a complete rewrite in Swift (along with a new navigation/info architecture), a small team and I constantly iterated over different tests to produce features that allowed the member to stay more connected to their stylist and allow for more interaction with their wardrobe.
 
