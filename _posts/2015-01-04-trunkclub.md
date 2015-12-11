@@ -16,7 +16,9 @@ _Note: For some examples throughout this post sensitive business information has
 
 _All of these experiences were the product of a team and reflect the state they were at during my active design/development. At Trunk Club we have a very iterative / test driven approach and each of these has been continually developed upon since._
 
-Projects (in chronological order):
+<div class="spacer"></div>
+
+### Projects (in chronological order):
 
 - [Trunk Preview](#TrunkPreview)
 - [Stylist Catalog](#StylistCatalog)
