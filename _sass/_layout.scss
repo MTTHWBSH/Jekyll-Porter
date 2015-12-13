@@ -10,3 +10,12 @@
  		padding: 0 $spacing-unit / 2;
  	}
  }
+
+ .spacer {
+ 	content: "";
+ 	display: block;
+ 	height: $spacing-unit;
+ 	&.half {
+ 		height: $spacing-unit / 2;
+ 	}
+ }
