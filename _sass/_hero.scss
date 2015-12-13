@@ -3,7 +3,7 @@
  */
 
 .hero {
-	background: url('../assets/images/hero.gif');
+	background: linear-gradient($grayDark, $gray);
 	background-size: cover;
 	text-align: center;
 	color: $white;
@@ -59,7 +59,8 @@
 		height: 150px;
 		width: 150px;
 		border-radius: 100%;
-		border: 2px solid $grayLight;
+		border: 4px solid $white;
+		background: $white;
 		margin: $spacing-unit auto;
 	}
 	a {
