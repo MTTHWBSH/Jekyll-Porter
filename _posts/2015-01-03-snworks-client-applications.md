@@ -8,7 +8,7 @@ thumbnail: /assets/images/snworks-thumbnail.png
 categories:
   - Portfolio
 ---
-[**getsnworks.com/**][link1]
+[**getsnworks.com**][link1]
 
 During my time at [SNWorks][link1] I spent my time as a bit of a utility knife, spending most of my time in front-end development / UI design and eventually leading the development team on several client projects (as well as our own [statenews.com][link1]).
 
