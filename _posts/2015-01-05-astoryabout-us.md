@@ -8,7 +8,10 @@ thumbnail: /assets/images/astoryabout-thumbnail.png
 categories:
   - Portfolio
 ---
+
 [**astoryabout.us**][link1]
+
+
 [**wedding.astoryabout.us**][link2]
 
 Like most developers, I try and employ my tools at hand to solve problems in ways that some might not consider the status quo. So naturally, when it came to trying to convince the most [amazing girl][kateTwitter] in the world (my best friend, and at the time girlfriend) to marry me, I chose a channel I often communicate with: the web!
