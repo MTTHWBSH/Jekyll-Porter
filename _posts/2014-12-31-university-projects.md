@@ -9,8 +9,6 @@ categories:
   - Portfolio
 ---
 
-
-
 As someone who's long been interested about data and its analysis, I wanted to do something that could combine this with visual design. To do this, I decided to create a sort of sandbox and teach myself the [d3.js][link1] library (a JavaScript library for web based data visualizations) as part of an independent study. The site follows my progression from simply generating an HTML table from a CSV document, to creating interactive visualizations from large data sets.
 
 ![Website screenshot][image1]

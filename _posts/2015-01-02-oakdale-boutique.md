@@ -9,7 +9,7 @@ categories:
   - Portfolio
 ---
 
-[**http://oakdaleboutique.com**][link1]
+[**oakdaleboutique.com**][link1]
 
 My wife makes some really great furniture; so great that she can't keep up with demand from organic traffic to her Etsy store - but naturally she still wanted her own domain to point folks to anyways. The idea was to get something up as quickly and simply as possible that provided a quick rundown of her services and highlighted current/past work. Over a weekend I spun up a custom Jekyll theme to do just that. Code is available on [GitHub][link2].
 
