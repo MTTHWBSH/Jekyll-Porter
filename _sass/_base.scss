@@ -15,37 +15,6 @@ dl, dd, ol, ul, figure {
   background: $grayLight;
 }
 
-.parallax-content {
-    z-index: 1000;
-    background-color: $white;
-    position: absolute;
-    width: 100%;
-}
-
-section {
-    padding: $spacing-unit 0;
-    .section-header {
-        text-align: center;
-        margin-bottom: $spacing-unit;
-        h1 {
-            color: $grayDark;
-            display: block;
-            font-family: $base-font-family;
-            font-size: $large-font-size;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-        &:after {
-            content: "";
-            display: inline-block;
-            width: 45px;
-            border-width: 1px 0;
-            border-style: solid;
-            border-color: $gray;
-        }
-    }
-}
-
 /**
  * Utils
  */
