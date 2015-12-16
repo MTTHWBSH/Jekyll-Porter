@@ -4,20 +4,22 @@
 
 section.work {
 	background-color: $white;
-	padding: $spacing-unit 0 0;
-	max-width: 1700px;
 	margin: auto;
 	.post-preview {
 		width: 100%;
 		height: auto;
 		@extend .flex-aligner;
 		&:nth-child(odd) {
+			-webkit-flex-direction: row-reverse; 
+			flex-direction: row-reverse;
+		}
+		&:nth-child(even) {
 			-webkit-flex-direction: row; 
 			flex-direction: row;
 		}
-		&:nth-child(even) {
-			-webkit-flex-direction: row-reverse; 
-			flex-direction: row-reverse;
+		@include media-query($device-medium) {
+			display: block;
+			margin-bottom: $spacing-unit;
 		}
 		a img {
 			width: 100%;
@@ -35,6 +37,9 @@ section.work {
 			text-align: center;
 			@extend .flex-aligner-item;
 			@extend .flex-aligner-item--fixed;
+			@include media-query($device-medium) {
+				width: 100%;
+			}
 			.excerpt {
 				width: 90%;
 				max-width: 600px;
@@ -42,7 +47,7 @@ section.work {
 				@include media-query($device-medium) {
 					padding: 0;
 					width: 100%;
-					max-width: 100%;
+					max-width: 600px;
 		 		}
 			}
 		}
@@ -58,7 +63,7 @@ section.work {
 			font-size: $large-font-size;
 			color: $gray;
 			@include media-query($device-medium) {
-		 		display: none;
+		 		font-size: $small-font-size;
 		 	}
 		}
 	}
