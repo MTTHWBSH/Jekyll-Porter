@@ -14,7 +14,7 @@ categories:
 
 [**wedding.astoryabout.us**][link2]
 
-Like most developers, I try and employ my tools at hand to solve problems in ways that some might not consider the status quo. So naturally, when it came to trying to convince the most [amazing girl][kateTwitter] in the world (my best friend, and at the time girlfriend) to marry me, I chose a channel I often communicate with: the web!
+Like most developers, I strive to employ my tools at hand to solve problems in ways that some might not consider the status quo. So naturally, when it came to trying to convince the most amazing girl in the world (my best friend, and at the time girlfriend) to marry me, I chose a channel I often communicate with: the web!
 
 The ultimate goal of the experience was to tell the story of our relationship, and eventually lead the fiance-to-be back to where it all started (I would then pop the question). So I recruited two heroic collaborators, one [illustrator][gabeTwitter] and another [developer][joshTwitter].
 
@@ -43,7 +43,6 @@ One place I had to ignore this rule a little bit was the photo gallery. With lot
 <!-- Links -->
 [link1]:			http://astoryabout.us
 [link2]:			http://wedding.astoryabout.us
-[kateTwitter]:      https://twitter.com/KateEBush
 [gabeTwitter]:		https://twitter.com/GabeCooper
 [joshTwitter]:		https://twitter.com/JoshDComp
 [huffPo]:			http://www.huffingtonpost.com/2013/07/18/online-marriage-proposal_n_3619405.html
