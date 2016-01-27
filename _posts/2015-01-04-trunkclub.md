@@ -44,7 +44,7 @@ After this I switched my focus to internal applications that help the business r
 
 ![Website screenshot][image2]
 
-A key feature I worked on that allowed for an improved member experience downstream was the ability to create outfits and annotate them within the shopping experience. Employees were able to better convey the choices made to the member in the context of an outfit, and the members were then able to reference those looks down the road.
+A key feature I worked on that allowed for an improved member experience downstream was the ability to create outfits and annotate them within the shopping experience. Stylists were able to outfit around items in the current trunk, as well as clothing in the member's Trunk Club wardrobe (including items purchased outside of Trunk Club and uploaded by the member). Stylists were able to better convey the choices made to the member in the context of an outfit, and the members were then able to reference those looks down the road.
 
 ![Website screenshot][image3]
 
@@ -53,6 +53,8 @@ A key feature I worked on that allowed for an improved member experience downstr
 ### Stylist iOS App
 
 Related to this area of work is an iOS app a small team and I designed and built from the ground up (our first app in Swift) that allows employees to better manage their members and associated tasks throughout the day / when away from a desk. The app acts as a companion to the desktop software and was designed in the context of being on-the-go. The app gives employees the ability to review relevant member information, create new members, review and complete tasks, review personal goals, and more.
+
+As direct messaging with the stylist became the focal point of the member experience, the stylist app followed suit. Stylists were able to create a rich co-shopping experience by including clothing items, inspirational looks and brands, previews of trunks, and more into the conversation. The app became a vital solution for managing a list of many conversations with members, ensuring they received all of the style support they were looking for in a timely and context-aware manner.
 
 ![Website screenshot][image4]
 ![Website screenshot][image5]
@@ -71,6 +73,8 @@ Another iOS app we were able to take from product vision & design all the way th
 ### Member iOS App
 
 After spending a lot of time on internal tools, I made it back to member facing products to work on the [Trunk Club iOS App][link5]. Starting with a complete rewrite in Swift (along with a new navigation/info architecture), a small team and I constantly iterated over different tests to produce features that allowed the member to stay more connected to their stylist and allow for more interaction with their wardrobe.
+
+A major feature and focal point of the app that aided with both of those qualities was direct messaging with the stylist. Getting style advice, receiving trunk previews and notifications, discussing recommended clothing options, and more were all just a message away.
 
 ![Application screenshot][image8]
 ![Application screenshot][image9]
