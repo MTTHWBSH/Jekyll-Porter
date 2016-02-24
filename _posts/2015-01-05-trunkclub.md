@@ -3,7 +3,7 @@ layout: post
 permalink: /trunkclub/
 title: 'Trunk Club'
 author: mtthwbsh
-excerpt: Various projects contributed to since joining the Trunk Club Engineering team as a software designer & engineer in October, 2013
+excerpt: Various projects contributed to at Trunk Club since joining the engineering team as a software designer & engineer in October, 2013
 thumbnail: /assets/images/thumbnail.png
 categories:
   - Portfolio
