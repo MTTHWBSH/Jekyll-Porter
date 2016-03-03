@@ -56,8 +56,10 @@ Related to this area of work is an iOS app a small team and I designed and built
 
 As direct messaging with the stylist became the focal point of the member experience, the stylist app followed suit. Stylists were able to create a rich co-shopping experience by including clothing items, inspirational looks and brands, previews of trunks, and more into the conversation. The app became a vital solution for managing a list of many conversations with members, ensuring they received all of the style support they were looking for in a timely and context-aware manner.
 
-![Website screenshot][image4]
-![Website screenshot][image5]
+![App screenshot][image4]
+![App screenshot][image5]
+![App screenshot][image6]
+![App screenshot][image7]
 
 <div id="CustomiPadApp" class="spacer"></div>
 
@@ -65,19 +67,23 @@ As direct messaging with the stylist became the focal point of the member experi
 
 Another iOS app we were able to take from product vision & design all the way through first release was an iPad app created to standardize and better the experience for the custom garment process. This app and the backend service that supported it provided the first real structured data set related to our custom garment business. The app gave employees the ability to store and edit member measurements and create / edit / duplicate orders. Beyond this it provided several auto-calculated and auto-completed values, as well as warnings when values are outside of an expected threshold.
 
-![Website screenshot][image6]
-![Website screenshot][image7]
+![App screenshot][image8]
+![App screenshot][image9]
 
 <div id="MemberiOSApp" class="spacer"></div>
 
 ### Member iOS App
 
-After spending a lot of time on internal tools, I made it back to member facing products to work on the [Trunk Club iOS App][link5]. Starting with a complete rewrite in Swift (along with a new navigation/info architecture), a small team and I constantly iterated over different tests to produce features that allowed the member to stay more connected to their stylist and allow for more interaction with their wardrobe.
+After spending a lot of time on internal tools, I made it back to member facing products to work on the [Trunk Club iOS App][link5] long term. My work started with a complete rewrite in Swift, along with a new navigation and aesthetic (the first of a few major restructures). A small team and I constantly iterated over different tests to produce features that allowed the member to stay more connected to their stylist and allow for deeper interaction with their wardrobe.
 
-A major feature and focal point of the app that aided with both of those qualities was direct messaging with the stylist. Getting style advice, receiving trunk previews and notifications, discussing recommended clothing options, and more were all just a message away.
+A major feature and focal point of the app/member experience that aided with both of those qualities was direct messaging with the stylist. Getting style advice, receiving trunk previews and notifications, discussing recommended clothing options, and more were all just a message away. This body of work allowed members and stylists to seamlessly discuss products and inspiration, leading to a richer collaboration that is vital to the Trunk Club experience.
 
-![Application screenshot][image8]
-![Application screenshot][image9]
+![App screenshot][image10]
+![App screenshot][image11]
+![App screenshot][image12]
+![App screenshot][image13]
+![App screenshot][image14]
+![App screenshot][image15]
 
 <!-- Links -->
 [link1]:			https://trunkclub.com/engineering
@@ -91,9 +97,15 @@ A major feature and focal point of the app that aided with both of those qualiti
 [image1]: 			/assets/images/trunk-preview.png
 [image2]: 			/assets/images/catalog.png
 [image3]: 			/assets/images/outfitting.png
-[image4]: 			/assets/images/stylist1.png
-[image5]: 			/assets/images/stylist2.png
-[image6]: 			/assets/images/custom1.png
-[image7]: 			/assets/images/custom2.png
-[image8]: 			/assets/images/member-stylist.png
-[image9]: 			/assets/images/member-wardrobe.png
+[image4]: 			/assets/images/TCStylistMessages.png
+[image5]: 			/assets/images/TCStylistConversation.png
+[image6]: 			/assets/images/TCStylistConversationCards.png
+[image7]: 			/assets/images/TCStylistProfile.png
+[image8]: 			/assets/images/custom1.png
+[image9]: 			/assets/images/custom2.png
+[image10]: 			/assets/images/TCMemberConversation.png
+[image11]: 			/assets/images/TCMemberConversation2.png
+[image12]: 			/assets/images/TCMemberWardrobe.png
+[image13]: 			/assets/images/TCMemberItemDetail1.png
+[image14]: 			/assets/images/TCMemberItemDetail2.png
+[image15]: 			/assets/images/TCMemberItemDetail3.png
