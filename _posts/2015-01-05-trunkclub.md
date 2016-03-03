@@ -74,7 +74,7 @@ Another iOS app we were able to take from product vision & design all the way th
 
 ### Member iOS App
 
-After spending a lot of time on internal tools, I made it back to member facing products to work on the [Trunk Club iOS App][link5] long term. My work started with a complete rewrite in Swift,along with a new navigation and aesthetic (the first of a few major restructures). A small team and I constantly iterated over different tests to produce features that allowed the member to stay more connected to their stylist and allow for deeper interaction with their wardrobe.
+After spending a lot of time on internal tools, I made it back to member facing products to work on the [Trunk Club iOS App][link5] long term. My work started with a complete rewrite in Swift, along with a new navigation and aesthetic (the first of a few major restructures). A small team and I constantly iterated over different tests to produce features that allowed the member to stay more connected to their stylist and allow for deeper interaction with their wardrobe.
 
 A major feature and focal point of the app/member experience that aided with both of those qualities was direct messaging with the stylist. Getting style advice, receiving trunk previews and notifications, discussing recommended clothing options, and more were all just a message away. This body of work allowed members and stylists to seamlessly discuss products and inspiration, leading to a richer collaboration that is vital to the Trunk Club experience.
 
