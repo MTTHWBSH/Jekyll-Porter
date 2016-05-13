@@ -41,7 +41,7 @@ One place I had to ignore this rule a little bit was the photo gallery. With lot
 ![Website photo gallery screenshot][image5]
 
 <!-- Links -->
-[link1]:			http://astoryabout.us
+[link1]:			http://asau.joshdcompton.com
 [link2]:			http://wedding.astoryabout.us
 [gabeTwitter]:		https://twitter.com/GabeCooper
 [joshTwitter]:		https://twitter.com/JoshDComp
