@@ -40,7 +40,7 @@ Given the simplicity of the app, I also challenged myself to few things:
 In a bit of a self-contradiction, I also wanted to assess some of the newer Swift networking and JSON parsing libraries. After some research (and familiarity with the obj-c version of AFNetworking) I decided on [Mapper][link5] by the team at Lyft and [Alamofire][link6].
 
 <!-- Links -->
-[link1]:			http://gaggle.club
+[link1]:			https://itunes.apple.com/vn/app/gaggle-club/id1191028579?mt=8
 [link2]:			http://shortdailydevotions.com
 [link3]:			https://github.com/MTTHWBSH/short-daily-devotions
 [link4]:			http://v2.wp-api.org/
