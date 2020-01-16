@@ -1,0 +1,36 @@
+I"g<p><a href="https://itunes.apple.com/us/app/short-daily-devotions/id1191028579?ls=1&amp;mt=8"><strong>Short Daily Devotions iOS app</strong></a></p>
+
+<p>Short Daily Devotions is just as it sounds, a daily publication delivering quick reads via email and its <a href="http://shortdailydevotions.com">website</a>. I’m an avid winter runner, and would often read the daily post while walking my last few blocks, but would spend half my time trying to tap through the mobile site with my gloves on. I decided to solve my own problem by giving myself the ability to say, “Hey Siri, open…” instead. Short Daily Devotions graciously runs entirely off donations, and as a result has not had the resources to invest in native clients, which gave me the opportunity to donate my side project time.</p>
+
+<p>The majority of the time I open the app, I’m doing so to read today’s post, so that’s exactly what the first screen of that app entails (and only that).</p>
+
+<p><img src="/assets/images/SDD-1.png" alt="App screenshot" /></p>
+
+<p>To keep the reading interface as focused as possible, I moved a segmented control to the navigation bar title, where you can access the archive of previous posts. The archive view includes a paginated list of past posts, limiting the amount of unnecessary network resources.</p>
+
+<p><img src="/assets/images/SDD-2.png" alt="App screenshot" /></p>
+
+<p>Any ancillary information is accessible in a separate menu. Pages are dynamically loaded where appropriate. Thanks to the available social networks supporting universal links, tapping any of the social buttons will open the profile in the respective app if installed, and will otherwise fall back on Safari.</p>
+
+<p><img src="/assets/images/SDD-3.png" alt="App screenshot" />
+<img src="/assets/images/SDD-4.png" alt="App screenshot" /></p>
+
+<p>Aside from being a fun side project that solved a problem I dealt with day-to-day, this also alotted me the freedom to explore some new technical challenges.</p>
+
+<p>Since the blog is hosted on WordPress, I took a shot at using the <a href="http://v2.wp-api.org/">WordPress REST API</a> for the first time. Being a blog with a pre-existing post/data structure I didn’t have a say in its architecture based on my client needs, so a lot of the initial work ended up being processing large chunks of HTML into something I could use with my models (not something I’m generally a fan of, but a fun challenge).</p>
+
+<p>Given the simplicity of the app, I also challenged myself to few things:</p>
+
+<ul>
+  <li>Keeping third party dependencies to a minimum</li>
+  <li>Not using a single storyboard/XIB (opting instead to layout programmatically)</li>
+  <li>Strict MVVM architecture, as light as possible view controllers</li>
+  <li>100% Swift</li>
+</ul>
+
+<p>In a bit of a self-contradiction, I also wanted to assess some of the newer Swift networking and JSON parsing libraries. After some research (and familiarity with the obj-c version of AFNetworking) I decided on <a href="https://github.com/lyft/mapper">Mapper</a> by the team at Lyft and <a href="https://github.com/Alamofire/Alamofire">Alamofire</a>.</p>
+
+<!-- Links -->
+
+<!-- Images -->
+:ET

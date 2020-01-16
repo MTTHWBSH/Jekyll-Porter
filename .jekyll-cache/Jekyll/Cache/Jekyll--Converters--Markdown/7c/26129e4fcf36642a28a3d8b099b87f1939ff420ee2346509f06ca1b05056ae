@@ -1,0 +1,21 @@
+I"�
+<p>As someone who’s long been interested about data and its analysis, I wanted to do something that could combine this with visual design. To do this, I decided to create a sort of sandbox and teach myself the <a href="http://d3js.org/">d3.js</a> library (a JavaScript library for web based data visualizations) as part of an independent study. The site follows my progression from simply generating an HTML table from a CSV document, to creating interactive visualizations from large data sets.</p>
+
+<p><img src="/assets/images/donutchart.png" alt="Website screenshot" /></p>
+
+<p>In an unrelated graphic design class, I was tasked with creating a two-page layout that took one side of an argument. Although I might not share the same views on big data, when I stumbled upon Matthew Ingram’s <a href="http://gigaom.com/2013/02/01/the-increasingly-blurry-line-between-big-data-and-big-brother/">article</a> comparing big data to “big brother” I thought it would be perfect to accompany my site. You can see that below, and the code for my sandbox <a href="https://github.com/MTTHWBSH/tc349/tree/master/projects/data-viz">here</a>.</p>
+
+<p><img src="/assets/images/spread.jpg" alt="Infographic" /></p>
+
+<p>In a separate capstone course for designers we were tasked with the challenge to, as a group, create a project relating to the University. While brainstorming such an open ended concept we did a lot of digging into classes of the past and became very interested with the historical culture of students. We thought it would be interesting to create a digital time capsule that highlighted the aspects of student life that were meaningful to us at the time. With this in mind, we set out to create <em>Beyond the Banks</em>.</p>
+
+<p>As lead developer for Beyond the Banks, I was tasked with leading a team of new developers, content creators, and designers over the course of a semester. The nature of this project allowed us to use experimental front-end technologies, as well as afforded me the opportunity to teach new developers to create web UIs and work in a team. This was also a practice in content strategy and design for the web for class members with little experience both. The final iteration ended up being a responsive website with a sortable grid of student created stories (drilling into each story revealed a modal with photography and text). The repo can be found on <a href="https://github.com/MTTHWBSH/sta499">GitHub</a> and the final product is still available <a href="http://greenenas.cas.msu.edu/Classes/sta499-master">here</a>.</p>
+
+<p><img src="/assets/images/btb-home.png" alt="Website screenshot" /></p>
+
+<p><img src="/assets/images/btb-modal.png" alt="Website screenshot" /></p>
+
+<!-- Links -->
+
+<!-- Images -->
+:ET

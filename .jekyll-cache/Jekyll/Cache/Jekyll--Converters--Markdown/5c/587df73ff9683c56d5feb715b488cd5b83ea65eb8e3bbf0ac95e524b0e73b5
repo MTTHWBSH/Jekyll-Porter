@@ -1,0 +1,24 @@
+I"�<p><a href="https://itunes.apple.com/vn/app/gaggle-club/id1112225433?mt=8"><strong>Gaggle iOS app</strong></a></p>
+
+<p><a href="http://gaggle.club"><strong>gaggle.club</strong></a></p>
+
+<p>Gaggle is a combination of <a href="http://gaggle.club/app">iOS</a> and <a href="http://gaggle.club">web</a> applications that promotes the discovery and creation of collective nouns. Its inception began amidst a chat between myself and colleague <a href="http://joshdcompton.com/">Josh Compton</a>. While batting around some real, and some totally ludicrous collective nouns, we decided it would be fun if there was an easier way to create and consume them publicly.</p>
+
+<p><img src="/assets/images/Gaggle1.jpg" alt="App screenshot" /></p>
+
+<p>The Gaggle iOS app focuses on the creation and sharing of new or existing collective nouns by combining text and imagery. The app utilizes the device camera and photo albums allowing users to quickly create, annotate, and share.</p>
+
+<p><img src="/assets/images/Gaggle4.jpg" alt="App screenshot" />
+<img src="/assets/images/Gaggle5.jpg" alt="App screenshot" /></p>
+
+<p>Newly created collective nouns are added to the public feed. Users can simply tap an image to reveal the collective noun it’s associated with.</p>
+
+<p><img src="/assets/images/Gaggle2.jpg" alt="App screenshot" />
+<img src="/assets/images/Gaggle3.jpg" alt="App screenshot" /></p>
+
+<p>From a technical perspective, building Gaggle from the ground up allowed me to explore platforms and APIs I’m otherwise not exposed to on a day-to-day basis. I was able to give <a href="https://github.com/ParsePlatform/parse-server">Parse Server</a> a try shortly after it was announced, deep dive into <a href="https://developer.apple.com/av-foundation/">AVFoundation</a> to build a custom camera, flex branding, iconography, and other visual/interaction design muscles, and all of the other trial and error learnings that come with a new project (not to mention releasing to the App Store).</p>
+
+<!-- Links -->
+
+<!-- Images -->
+:ET

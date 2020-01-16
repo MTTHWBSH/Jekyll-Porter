@@ -1,0 +1,34 @@
+I"�<p><a href="http://asau.joshdcompton.com"><strong>astoryabout.us</strong></a></p>
+
+<p><a href="http://wedding.astoryabout.us"><strong>wedding.astoryabout.us</strong></a></p>
+
+<p>Like most developers, I strive to employ my tools at hand to solve problems in ways that some might not consider the status quo. So naturally, when it came to trying to convince the most amazing girl in the world (my best friend, and at the time girlfriend) to marry me, I chose a channel I often communicate with: the web!</p>
+
+<p>The ultimate goal of the experience was to tell the story of our relationship, and eventually lead the fiance-to-be back to where it all started (I would then pop the question). So I recruited two heroic collaborators, one <a href="https://twitter.com/GabeCooper">illustrator</a> and another <a href="https://twitter.com/JoshDComp">developer</a>.</p>
+
+<p>My role in the project quickly shifted between art direction, UXD, IxD, front-end development, and project management. The aim of this project was to encompass our relationship in creative storytelling, and after recognizing the movement and playfulness of the illustrations we settled on an interactive/animated slideshow-type interface.</p>
+
+<p><img src="/assets/images/screenshot.png" alt="Website screenshot" /></p>
+
+<p>Due to the primary audience (one person) and focus (storytelling) of the project, the scope was pretty well defined from the get go. Although I and the developer are huge proponents of RWD and accessibility, there were times where we chose not to implement exciting new tech as to not deter from the experience (for instance not using CSS3 animations that just weren’t there in comparison to jQuery easing). Since this project was time contingent and so focused on a single user, we weren’t much affected by this, but like many other projects the scope changed dramatically in an instant. After pushing this public, the site gained traction and was shared by several heavy influencers (including articles on <a href="http://www.huffingtonpost.com/2013/07/18/online-marriage-proposal_n_3619405.html">The Huffington Post</a> and <a href="http://www.mlive.com/entertainment/grand-rapids/index.ssf/2013/07/geeky_marriage_proposal_websit.html">mLive</a>, and a special mention from <a href="http://awwwards.com">awwwards.com</a>). In four days, we had 7,500 views (with several more to come) from a myriad of different devices and browsers that we hadn’t prepared for.</p>
+
+<p><img src="/assets/images/analytics.png" alt="Website analytics" /></p>
+
+<p>Oh, I guess I left out one minor detail… <strong><em>she said yes</em></strong>!</p>
+
+<p>After all this, I realized that planning a wedding is stressful. As much as I would’ve loved to personally respond to all inquiries regarding wedding details, sometimes it’s easier to just point everyone in the same direction. This was clearly another opportunity to use the web as my communication tool.</p>
+
+<p><img src="/assets/images/hub-home.png" alt="Website screenshot" /></p>
+
+<p>I took advantage of the opportunity to alieve some of the painpoints concerning accessibility / performance / responsiveness in regards to the proposal website by ensuring all important content was available quickly and agnostic of device and connection.</p>
+
+<p><img src="/assets/images/hub-menu.png" alt="Website menu screenshot" /></p>
+
+<p>One place I had to ignore this rule a little bit was the photo gallery. With lots of beautifully shot photos comes lots of bloat, so I worked hard to cut size where I could. That meant minifying SASS and JavaScript, optimizing images, and minimizing HTTP requests.</p>
+
+<p><img src="/assets/images/hub-photos.png" alt="Website photo gallery screenshot" /></p>
+
+<!-- Links -->
+
+<!-- Images -->
+:ET
