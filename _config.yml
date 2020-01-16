@@ -12,7 +12,3 @@ markdown: kramdown
 sass:
     style: :compressed
     sass_dir: _sass
-
-# Gems
-gems:
- - jekyll-coffeescript
