@@ -10,11 +10,11 @@ section.work {
 		height: auto;
 		@extend .flex-aligner;
 		&:nth-child(odd) {
-			-webkit-flex-direction: row-reverse; 
+			-webkit-flex-direction: row-reverse;
 			flex-direction: row-reverse;
 		}
 		&:nth-child(even) {
-			-webkit-flex-direction: row; 
+			-webkit-flex-direction: row;
 			flex-direction: row;
 		}
 		@include media-query($device-medium) {
@@ -22,8 +22,9 @@ section.work {
 			margin-bottom: $spacing-unit;
 		}
 		a img {
-			width: 100%;
-			height: auto;
+			width: auto;
+			max-height: 500px;
+			margin: auto;
 			overflow: hidden;
 			opacity: .9;
 			@include transition(all, 0.3s, ease-in-out);

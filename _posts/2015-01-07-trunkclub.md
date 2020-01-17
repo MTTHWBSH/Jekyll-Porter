@@ -3,14 +3,14 @@ layout: post
 permalink: /trunkclub/
 title: 'Trunk Club'
 author: mtthwbsh
-excerpt: Various projects contributed to at Trunk Club since joining the engineering team as a software designer & engineer in October, 2013
+excerpt: Various products contributed to at Trunk Club since joining the team as Product Designer & Engineer in October, 2013
 thumbnail: /assets/images/thumbnail.png
 categories:
   - Portfolio
 ---
-[**trunkclub.com/engineering**][link1]
+[**trunkclub.com**][link4]
 
-Since joining the Trunk Club Engineering team in early October, 2013, I've traversed the design and engineering gamut ranging from product discovery / design to application development. Though business needs required my role to be a bit of a generalist at times, my focus for most projects is on product / interface design and UI engineering for web and iOS applications. These projects span a period ranging from a small tech team within a sole Chicago headquarters to working with dozens of world class engineers for [offices across the nation][link3] (not to mention [being acquired][link2]).
+Since joining the Trunk Club Tech team in early October, 2013, I've traversed the design and engineering gamut ranging from product discovery / design to application development. Though business needs required my role to be a bit of a generalist at times, my focus for most projects is on product / interface design and UI engineering for web and iOS applications. These projects span a period ranging from a small tech team within a sole Chicago headquarters to working with dozens of world class engineers for [offices across the nation][link3] (not to mention [being acquired][link2]).
 
 _Note: For some examples throughout this post sensitive business information has been removed_
 

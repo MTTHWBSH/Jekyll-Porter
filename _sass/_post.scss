@@ -29,7 +29,10 @@
 		}
 		img {
 			width: 100%;
-			margin: $spacing-unit / 2 0;
+			margin: $spacing-unit / 2 auto;
+			&.phone {
+				max-width: 400px;
+			}
 		}
 		@include media-query($device-medium) {
 			margin-left: $spacing-unit * 1.75;
