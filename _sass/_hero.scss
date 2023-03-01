@@ -14,7 +14,7 @@
     right: 0;
 	@extend .flex-aligner;
 	.wrapper {
-		width: 600px + $spacing-unit;
+	    width: 560px + $spacing-unit;
 	    margin: auto;
 	    @include media-query($device-small) {
 	    	margin: 0;
@@ -43,6 +43,7 @@
 		font-family: $base-font-family-xlight;
 		letter-spacing: 1.0px;
 		line-height: 1.25;
+		margin-bottom: 12px;
 		span {
 			font-family: $base-font-family;
 		}
@@ -54,6 +55,9 @@
 			margin-top: $spacing-unit / 2;
 	    }
 	}
+	p {
+		font-family: $base-font-family-xlight;
+	}
 	.logo {
 		height: 150px;
 		width: 150px;
@@ -61,12 +65,6 @@
 		box-shadow: 0px 0px 10px 3px $gray;
 		background: $white;
 		margin: $spacing-unit auto;
-	}
-	a {
-		color: $white;
-		&:hover {
-			color: $white;
-		}
 	}
 	.bounce {
 		@include animation(bounce 2s infinite);
