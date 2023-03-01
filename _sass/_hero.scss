@@ -14,7 +14,7 @@
     right: 0;
 	@extend .flex-aligner;
 	.wrapper {
-	    width: 560px + $spacing-unit;
+	    width: 560px;
 	    margin: auto;
 	    @include media-query($device-small) {
 	    	margin: 0;
@@ -54,9 +54,6 @@
 			font-size: $base-font-size;
 			margin-top: $spacing-unit / 2;
 	    }
-	}
-	p {
-		font-family: $base-font-family-xlight;
 	}
 	.logo {
 		height: 150px;
