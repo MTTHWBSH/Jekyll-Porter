@@ -14,7 +14,7 @@
     right: 0;
 	@extend .flex-aligner;
 	.wrapper {
-	    width: 560px + $spacing-unit;
+	    width: 560px;
 	    margin: auto;
 	    @include media-query($device-small) {
 	    	margin: 0;
