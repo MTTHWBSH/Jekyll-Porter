@@ -12,6 +12,7 @@
 				display: inline-block;
 				padding: $spacing-unit / 3;
 				opacity: .7;
+				font-family: $base-font-family-normal;
 				&:hover, &:active {
 					opacity: 1.0;
 					@include transform(translateY(-2px));
